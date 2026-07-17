@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>三件小事</title>
+<style>
+  *{box-sizing:border-box;}
+  body{
+    margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+    background:linear-gradient(160deg,#0f1217,#1b2540 60%,#131b2e);
+    font-family:-apple-system,"PingFang SC",sans-serif; color:#eae6de;
+  }
+  .wrap{max-width:420px; width:100%; padding:30px;}
+  h1{font-size:22px; text-align:center; margin-bottom:6px;}
+  p.sub{text-align:center; color:rgba(234,230,222,0.5); font-size:13px; margin-bottom:30px;}
+  a.card{
+    display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit;
+    background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08);
+    border-radius:18px; padding:18px 20px; margin-bottom:14px; transition:transform .2s, background .2s;
+  }
+  a.card:active{transform:scale(0.97); background:rgba(255,255,255,0.08);}
+  .icon{font-size:30px;}
+  .info .t{font-size:16px; font-weight:600;}
+  .info .d{font-size:12px; color:rgba(234,230,222,0.5); margin-top:2px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>三件小事</h1>
+  <p class="sub">呼吸 · 记录 · 搞钱</p>
+  <a class="card" href="meditation/index.html">
+    <div class="icon">🌙</div>
+    <div class="info"><div class="t">呼吸 · 冥想</div><div class="d">3 次一循环的呼吸练习</div></div>
+  </a>
+  <a class="card" href="diary/index.html">
+    <div class="icon">🍡</div>
+    <div class="info"><div class="t">碎碎念日记</div><div class="d">每日一问，随手写写</div></div>
+  </a>
+  <a class="card" href="tracker/index.html">
+    <div class="icon">💰</div>
+    <div class="info"><div class="t">搞钱日历</div><div class="d">自媒体 / 电商 / 写作交付</div></div>
+  </a>
+</div>
+</body>
+</html>
